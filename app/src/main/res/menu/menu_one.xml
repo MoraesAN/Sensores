@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Proximidade"
+        android:id="@+id/prox"
+        android:onClick="sensor_proximidade"
+        app:showAsAction="collapseActionView"
+    ></item>
+    <item
+        android:title="Sensor Luz"
+        android:id="@+id/luz"
+        android:onClick="sensor_luz"
+        app:showAsAction="collapseActionView"
+        ></item>
+    <item
+        android:id="@+id/acelerometro"
+        android:onClick="sensor_acelerometro"
+        app:showAsAction="collapseActionView"
+        android:title="Acelerometro"
+        ></item>
+    <item
+        android:id="@+id/giroscopio"
+        android:onClick="sensor_giroscopio"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Giroscopio"
+        app:showAsAction="collapseActionView"
+        ></item>
+    <item
+        android:id="@+id/sensores"
+        android:onClick="todos_sensores"
+        android:title="Sensores"></item>
+</menu>
